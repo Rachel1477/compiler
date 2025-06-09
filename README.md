@@ -1,6 +1,11 @@
 # 问题1
 正常编译
+```
+bison -d q1.y
+flex q1.l
+gcc -o q1_parser q1.tab.c lex.yy.c -lfl
 
+```
 
 # 问题2
 ```
